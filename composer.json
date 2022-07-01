@@ -1,0 +1,44 @@
+{
+    "name": "delvefore/laravel-packager-hermes",
+    "description": "Artisan make Commands when using https://github.com/Jeroen-G/laravel-packager thereby accelerating your development of Laravel Packages. ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "johntimothybailey",
+            "email": "social@delvefore.com",
+            "homepage": "https://github.com/delvefore"
+        }
+    ],
+    "homepage": "https://github.com/delvefore/laravel-packager-hermes",
+    "keywords": ["Laravel", "PackagerHermes"],
+    "require": {
+        "illuminate/support": "~5|~6|~7|~8|~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0|~8.0|~9.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0",
+        "sensiolabs/security-checker": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DelveFore\\PackagerHermes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DelveFore\\PackagerHermes\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DelveFore\\PackagerHermes\\PackagerHermesServiceProvider"
+            ],
+            "aliases": {
+                "PackagerHermes": "DelveFore\\PackagerHermes\\Facades\\PackagerHermes"
+            }
+        }
+    }
+}

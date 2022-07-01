@@ -1,15 +1,15 @@
 {
-    "name": "delvefore/laravel-packager-hermes",
-    "description": "Artisan make Commands when using https://github.com/Jeroen-G/laravel-packager thereby accelerating your development of Laravel Packages. ",
+    "name": "webkurcom/laravel-packager",
+    "description": "Artisan make Commands",
     "license": "MIT",
     "authors": [
         {
-            "name": "johntimothybailey",
-            "email": "social@delvefore.com",
-            "homepage": "https://github.com/delvefore"
+            "name": "test deneme",
+            "email": "social@dwebkurcom.com",
+            "homepage": "https://github.com/webkurcom"
         }
     ],
-    "homepage": "https://github.com/delvefore/laravel-packager-hermes",
+    "homepage": "https://github.com/webkurcom/laravel-packager",
     "keywords": ["Laravel", "PackagerHermes"],
     "require": {
         "illuminate/support": "~5|~6|~7|~8|~9"
